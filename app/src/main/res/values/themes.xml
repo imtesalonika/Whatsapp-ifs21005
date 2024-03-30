@@ -1,0 +1,13 @@
+<resources>
+    <style name="Base.Theme.WhatsApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimaryContainer">@color/white</item>
+        <item name="android:colorPrimary">@color/primary_light</item>
+    </style>
+
+    <style name="Theme.WhatsApp" parent="Base.Theme.WhatsApp" />
+
+    <style name="ToolbarStyle">
+        <item name="android:background">@color/primary_light</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+</resources>

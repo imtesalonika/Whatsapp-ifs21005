@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagecontact"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@drawable/byun"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baekhyun"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/imagecontact"
+        app:layout_constraintTop_toTopOf="@id/imagecontact"
+        android:layout_marginStart="16dp"
+        android:textStyle="bold"
+        android:id="@+id/contactname"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini adalah pesan"
+        android:id="@+id/pesan_textview"
+        app:layout_constraintStart_toEndOf="@id/imagecontact"
+        app:layout_constraintTop_toBottomOf="@id/contactname"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="3dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tanggal_pesan"
+        android:text="29/03/2024"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/camerawhatsapp"
+        android:icon="@drawable/outline_camera_alt_24"
+        android:title="Camera"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_24"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/grup"
+        android:title="Grup Baru" />
+
+    <item
+        android:id="@+id/broadcast"
+        android:title="Siaran Baru" />
+
+    <item
+        android:id="@+id/linked"
+        android:title="Perangkat Tertaut" />
+
+    <item
+        android:id="@+id/pesan_berbintang"
+        android:title="Pesan Berbintang" />
+
+    <item
+        android:id="@+id/setelan"
+        android:title="Setelan"/>
+
+    <item
+        android:title="Beralih Akun"
+        android:id="@+id/beralih_akun"/>
+
+</menu>
